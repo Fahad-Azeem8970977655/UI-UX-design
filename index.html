@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autism Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Screen 1: Welcome Screen -->
+        <div class="screen" id="screen1">
+            <div class="content">
+                <h1>Early Autism Prediction of Children</h1>
+                <img src="Introduction.png" alt="Autism Logo" class="autism-image">
+                <p>Let's Get Started!</p>
+                <a href="#screen2" class="arrow">➔</a>
+            </div>
+        </div>
+
+        <!-- Screen 2: Create Account -->
+        <div class="screen" id="screen2">
+            <div class="content">
+                <a href="#screen1" class="back-arrow">←</a>
+                <h2>Create an Account</h2>
+                <p>Already have an account? <a href="#screen3">Sign in</a></p>
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign up</button>
+                </form>
+                <img src="Create-Account.png" alt="Autism Center Logo" class="logo">
+            </div>
+        </div>
+
+        <!-- Screen 3: Sign In -->
+        <div class="screen" id="screen3">
+            <div class="content">
+                <a href="#screen1" class="back-arrow">←</a>
+                <h2>Hi, Welcome Back!</h2>
+                <p>Don't have an account? <a href="#screen2">Sign up</a></p>
+                <form>
+                    <input type="text" name="email_or_name" placeholder="Full Name or Email" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                    <button type="submit">Sign in</button>
+                </form>
+                <img src="welcome-back.jpg" alt="Autism Care Logo" class="logo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
